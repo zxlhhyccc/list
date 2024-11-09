@@ -123,6 +123,7 @@ hulu.com
 video.yahoo.com
 google.co.id
 www.imdb.com
+statsig.com
 brave.com
 nbcnews.com
 xfinity.com
@@ -153,6 +154,7 @@ youtu.be
 store.steampowered.com
 imgur.com
 dailymotion.com
+oaiusercontent.com
 dmcdn.net
 line-scdn.net
 line.me
@@ -431,6 +433,7 @@ theepochtimes.com
 kraken.com
 usno.navy.mil
 google.tt
+crypto.com
 privateinternetaccess.com
 truthsocial.com
 google.com.kh
@@ -673,7 +676,9 @@ banorte.com
 nationalreview.com
 fb.me
 blog.google
+musixmatch.com
 pixiv.net
+bilibili.tv
 googleblog.com
 indianexpress.com
 rd.com
@@ -720,6 +725,7 @@ free.fr
 archive.is
 gumroad.com
 blubrry.com
+bitget.com
 typepad.com
 ciciai.com
 nhentai.net
@@ -1036,6 +1042,7 @@ sf.net
 apkcombo.com
 coinex.com
 stheadline.com
+pionex.com
 tineye.com
 myfreecams.com
 mgstage.com
@@ -1615,6 +1622,7 @@ bitcointalk.org
 sis001.com
 storj.io
 taiwannews.com.tw
+zergpool.com
 airvpn.org
 hkepc.com
 lionsroar.com
@@ -3862,6 +3870,7 @@ hungerstrikeforaids.org
 huobi.co
 huobi.me
 huobi.sc
+huobi.vc
 huobipro.com
 huping.net
 hurgokbayrak.com
@@ -4374,6 +4383,7 @@ longhair.hk
 longtermly.net
 longtoes.com
 looktoronto.com
+loongese.com
 lotsawahouse.org
 lotuslight.org.hk
 lotuslight.org.tw
@@ -4446,6 +4456,7 @@ maruta.be
 marxist.com
 marxist.net
 mash.to
+mashash.com
 maskedip.com
 mastodon.cloud
 mastodon.host
@@ -4797,6 +4808,7 @@ nokola.com
 noodlevpn.com
 norbulingka.org
 nordstromimage.com
+notion.site
 novelasia.com
 nowtorrents.com
 noxinfluencer.com
@@ -5114,6 +5126,7 @@ privatepaste.com
 privatevpn.com
 privoxy.org
 procopytips.com
+prohashing.com
 prosiben.de
 provpnaccounts.com
 proxfree.com

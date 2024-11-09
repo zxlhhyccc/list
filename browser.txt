@@ -4588,6 +4588,7 @@ zyzc9.com
 ||bigone.com
 ||bigsound.org
 ||bild.de
+||bilibili.tv
 ||biliworld.com
 ||binance.com
 ||binance.us
@@ -4603,6 +4604,7 @@ zyzc9.com
 ||bitcointalk.org
 ||bitcoinworld.com
 ||bitfinex.com
+||bitget.com
 ||bithumb.com
 ||bitinka.com.ar
 ||bitmex.com
@@ -5231,6 +5233,7 @@ zyzc9.com
 ||crucial.com
 ||crunchyroll.com
 ||crwdcntrl.net
+||crypto.com
 ||csdparty.com
 ||csis.org
 ||csmonitor.com
@@ -6772,6 +6775,7 @@ zyzc9.com
 ||huobi.me
 ||huobi.pro
 ||huobi.sc
+||huobi.vc
 ||huobipro.com
 ||huping.net
 ||hurgokbayrak.com
@@ -7370,6 +7374,7 @@ zyzc9.com
 ||longtoes.com
 ||lookpic.com
 ||looktoronto.com
+||loongese.com
 ||lotuslight.org.hk
 ||lotuslight.org.tw
 ||loukky.com
@@ -7445,6 +7450,7 @@ zyzc9.com
 ||marxist.com
 ||marxist.net
 ||mash.to
+||mashash.com
 ||maskedip.com
 ||mastodon.cloud
 ||mastodon.host
@@ -7675,6 +7681,7 @@ zyzc9.com
 ||muscdn.com
 ||musicade.net
 ||musical.ly
+||musixmatch.com
 ||muslimvideo.com
 ||muzi.com
 ||muzi.net
@@ -7883,6 +7890,7 @@ zyzc9.com
 ||nordvpn.com
 ||notepad-plus-plus.org
 ||notify.dropboxapi.com
+||notion.site
 ||nottinghampost.com
 ||novelasia.com
 ||now.com
@@ -7960,6 +7968,7 @@ zyzc9.com
 ||nzchinese.net.nz
 ||o3o.ca
 ||oaistatic.com
+||oaiusercontent.com
 ||oanda.com
 ||oann.com
 ||observechina.net
@@ -8202,6 +8211,7 @@ zyzc9.com
 ||pinterest.jp
 ||pinterest.nl
 ||pinterest.se
+||pionex.com
 ||pipii.tv
 ||piposay.com
 ||piraattilahti.org
@@ -8309,6 +8319,7 @@ zyzc9.com
 ||privatevpn.com
 ||privoxy.org
 ||procopytips.com
+||prohashing.com
 ||project-syndicate.org
 ||prosiben.de
 ||proton.me
@@ -8901,6 +8912,7 @@ zyzc9.com
 ||static01.nyt.com
 ||staticflickr.com
 ||stats.wp.com
+||statsig.com
 ||statueofdemocracy.org
 ||stboy.net
 ||stc.com.sa
@@ -10199,6 +10211,7 @@ zyzc9.com
 ||zengjinyan.org
 ||zenmate.com
 ||zenmate.com.ru
+||zergpool.com
 ||zerohedge.com
 ||zeronet.io
 ||zeutch.com
