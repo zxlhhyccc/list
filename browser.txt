@@ -4251,6 +4251,7 @@ zyzc9.com
 ||aliengu.com
 ||alive.bar
 ||aljazeera.com
+||aljazeera.net
 ||alkasir.com
 ||all4mom.org
 ||allcoin.com
@@ -4796,6 +4797,8 @@ zyzc9.com
 ||brookings.edu
 ||brucewang.net
 ||brutaltgp.com
+||bsky.app
+||bsky.social
 ||bt2mag.com
 ||bt95.com
 ||btaia.com
@@ -5019,6 +5022,7 @@ zyzc9.com
 ||chinagonet.com
 ||chinagreenparty.org
 ||chinahorizon.org
+||chinahrc.org
 ||chinahush.com
 ||chinainperspective.com
 ||chinainterimgov.org
@@ -5067,6 +5071,7 @@ zyzc9.com
 ||chithu.org
 ||chn.chosun.com
 ||chobit.cc
+||chped.com
 ||chrdnet.com
 ||christianfreedom.org
 ||christianstudy.com

@@ -245,6 +245,7 @@ google.com.my
 google.com.co
 stackoverflow.com
 dropboxusercontent.com
+bsky.app
 nordstrom.com
 archive.org
 substack.com
@@ -309,6 +310,7 @@ news.yahoo.com
 google.com.pr
 google.it
 cdn-telegram.org
+bsky.social
 google.cl
 google.com.ua
 fast.com
@@ -674,6 +676,7 @@ flipkart.com
 oanda.com
 convio.net
 fb.me
+aljazeera.net
 techcrunch.com
 lemonde.fr
 9cache.com
@@ -2588,6 +2591,7 @@ chinagfw.org
 chinagonet.com
 chinagreenparty.org
 chinahorizon.org
+chinahrc.org
 chinahush.com
 chinainperspective.com
 chinainterimgov.org
@@ -2632,6 +2636,7 @@ chingcheong.com
 chinman.net
 chithu.org
 chn.chosun.com
+chped.com
 chrdnet.com
 christianfreedom.org
 christianstudy.com
