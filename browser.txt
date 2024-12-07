@@ -2428,6 +2428,7 @@
 @@||baidu.com
 @@||bianlei.com
 @@||c.admob.com
+@@||c.pki.goog
 @@||cache.pack.google.com
 @@||checkin.gstatic.com
 @@||chinaso.com
@@ -6715,6 +6716,7 @@ zyzc9.com
 ||hottg.com
 ||hotvpn.com
 ||hougaige.com
+||house.gov
 ||howtoforge.com
 ||hoxx.com
 ||hoyolab.com
@@ -7900,7 +7902,6 @@ zyzc9.com
 ||nottinghampost.com
 ||novelasia.com
 ||now.com
-||now.im
 ||nownews.com
 ||noxinfluencer.com
 ||noypf.com
