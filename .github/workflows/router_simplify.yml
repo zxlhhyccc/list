@@ -11,6 +11,23 @@ jobs:
     steps:
       - uses: actions/checkout@main
 
+      - name: Free Disk Space
+        if: ${{ github.event.inputs.only_config != 'true' }}
+        uses: jlumbroso/free-disk-space@main
+        with:
+          tool-cache: true
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          docker-images: true
+          swap-storage: true
+
+      - name: Set Swap Space
+        uses: pierotofy/set-swap-space@master
+        with:
+          swap-size-gb: 10
+
       - name: Run script
         run: |
           #!/bin/bash -e
@@ -93,7 +110,7 @@ jobs:
                   local output_file=$1
                   INVALID_DOMAINS=""
                   while read -r DOMAIN; do
-                      RESULT=$(dig @8.8.8.8 -t any "$DOMAIN")
+                      RESULT=$(dig @8.8.8.8 -t any "$DOMAIN" +short)
                       if [ -z "$RESULT" ]; then
                           echo "Domain $DOMAIN is invalid."
                           INVALID_DOMAINS="${INVALID_DOMAINS}${DOMAIN}\n"
