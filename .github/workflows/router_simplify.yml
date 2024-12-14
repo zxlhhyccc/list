@@ -116,13 +116,14 @@ jobs:
                       RESULT=$(dig @8.8.8.8 -t any "$DOMAIN" +short)
                       if [ -z "$RESULT" ]; then
                           echo "Domain $DOMAIN is invalid."
-                          INVALID_DOMAINS="${INVALID_DOMAINS}${DOMAIN}\n"
+                          INVALID_DOMAINS="${INVALID_DOMAINS}${DOMAIN}
+                          "
                       else
                           echo "Domain $DOMAIN is valid."
                       fi
                       sleep 0.02
                   done < list_tail_NoGood.tmp
-                  echo -e "$INVALID_DOMAINS" > "$output_file"
+                  printf "%s\n" "$INVALID_DOMAINS" > "$output_file"
               }
               
               check_domains INVALID-1.txt
@@ -132,8 +133,12 @@ jobs:
               check_domains INVALID-3.txt
               sleep 6
               check_domains INVALID-4.txt
-              
+
+              ls -l INVALID-*.txt
+
               awk '{count[$0]++} END {for (domain in count) if (count[domain]==4) print domain}' INVALID-1.txt INVALID-2.txt INVALID-3.txt INVALID-4.txt | sort > invalid_domains.tmp
+
+              cat invalid_domains.tmp
               
               grep -Fv -f invalid_domains.tmp list_tail_NoGood.tmp > list_tail_Good.tmp
               
