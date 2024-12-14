@@ -121,7 +121,7 @@ jobs:
                       else
                           echo "Domain $DOMAIN is valid."
                       fi
-                      sleep 0.02
+                      sleep 0.005
                   done < list_tail_NoGood.tmp
                   printf "%s\n" "$INVALID_DOMAINS" > "$output_file"
               }
