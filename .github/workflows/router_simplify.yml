@@ -32,6 +32,8 @@ jobs:
         run: |
           #!/bin/bash -e
           set -o pipefail
+          set -x
+          trap 'echo "Error occurred at line $LINENO"' ERR
 
           CUR_DIR=$(pwd)
           TMP_DIR=$(mktemp -d /tmp/list.XXXXXX)
@@ -110,6 +112,7 @@ jobs:
                   local output_file=$1
                   INVALID_DOMAINS=""
                   while read -r DOMAIN; do
+                      echo "Checking domain: $DOMAIN"
                       RESULT=$(dig @8.8.8.8 -t any "$DOMAIN" +short)
                       if [ -z "$RESULT" ]; then
                           echo "Domain $DOMAIN is invalid."
@@ -121,7 +124,7 @@ jobs:
                   done < list_tail_NoGood.tmp
                   echo -e "$INVALID_DOMAINS" > "$output_file"
               }
-
+              
               check_domains INVALID-1.txt
               sleep 6
               check_domains INVALID-2.txt
@@ -129,7 +132,6 @@ jobs:
               check_domains INVALID-3.txt
               sleep 6
               check_domains INVALID-4.txt
-              sleep 6
               
               awk '{count[$0]++} END {for (domain in count) if (count[domain]==4) print domain}' INVALID-1.txt INVALID-2.txt INVALID-3.txt INVALID-4.txt | sort > invalid_domains.tmp
               
